@@ -59,10 +59,9 @@ body {
 }
 
 main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -71,6 +70,7 @@ main {
   justify-content: center;
   align-items: center;
   max-width: 20rem;
+  margin: 3rem;
   padding: 1rem 0;
   background: hsl(0, 0%, 100%);
   border-radius: 1.25rem;
@@ -101,7 +101,6 @@ main {
 }
 
 .attribution {
-  margin-top: 0.5rem;
   font-size: 0.6875rem;
   text-align: center;
 }
